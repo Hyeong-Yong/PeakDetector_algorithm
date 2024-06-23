@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dev\\C#\\PeakDetector\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B57D83B-84FC-41D7-A340-C7032147B5A7}|PeakDetector.csproj|C:\\Dev\\C#\\PeakDetector\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2B57D83B-84FC-41D7-A340-C7032147B5A7}|PeakDetector.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B57D83B-84FC-41D7-A340-C7032147B5A7}|PeakDetector.csproj|C:\\Dev\\C#\\PeakDetector\\peakdectector_algorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B57D83B-84FC-41D7-A340-C7032147B5A7}|PeakDetector.csproj|solutionrelative:peakdectector_algorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B57D83B-84FC-41D7-A340-C7032147B5A7}|PeakDetector.csproj|c:\\dev\\c#\\peakdetector\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B57D83B-84FC-41D7-A340-C7032147B5A7}|PeakDetector.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B57D83B-84FC-41D7-A340-C7032147B5A7}|PeakDetector.csproj|C:\\Dev\\C#\\PeakDetector\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B57D83B-84FC-41D7-A340-C7032147B5A7}|PeakDetector.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B57D83B-84FC-41D7-A340-C7032147B5A7}|PeakDetector.csproj|C:\\Dev\\C#\\PeakDetector\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B57D83B-84FC-41D7-A340-C7032147B5A7}|PeakDetector.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B57D83B-84FC-41D7-A340-C7032147B5A7}|PeakDetector.csproj|C:\\Dev\\C#\\PeakDetector\\peakdetector.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{2B57D83B-84FC-41D7-A340-C7032147B5A7}|PeakDetector.csproj|solutionrelative:peakdetector.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PeakDetector",
+              "DocumentMoniker": "C:\\Dev\\C#\\PeakDetector\\PeakDetector.csproj",
+              "RelativeDocumentMoniker": "PeakDetector.csproj",
+              "ToolTip": "C:\\Dev\\C#\\PeakDetector\\PeakDetector.csproj",
+              "RelativeToolTip": "PeakDetector.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-22T10:06:12.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Dev\\C#\\PeakDetector\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Dev\\C#\\PeakDetector\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T08:36:53.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PeakDectector_Algorithm.cs",
+              "DocumentMoniker": "C:\\Dev\\C#\\PeakDetector\\PeakDectector_Algorithm.cs",
+              "RelativeDocumentMoniker": "PeakDectector_Algorithm.cs",
+              "ToolTip": "C:\\Dev\\C#\\PeakDetector\\PeakDectector_Algorithm.cs",
+              "RelativeToolTip": "PeakDectector_Algorithm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T08:33:08.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Dev\\C#\\PeakDetector\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Dev\\C#\\PeakDetector\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T08:32:47.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Dev\\C#\\PeakDetector\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Dev\\C#\\PeakDetector\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T08:32:41.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Dev\\C#\\PeakDetector\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Dev\\C#\\PeakDetector\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T08:32:13.768Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
