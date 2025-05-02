@@ -125,7 +125,7 @@ namespace PeakDetector {
         }
 
         /// <summary>
-        /// 누적 평균값을 구함(?) 이상함
+        /// 누적 평균값을 구함(칼만 필터로 실시간데이터에 유용함)
         /// </summary>
         /// <param name="signal"></param>
         /// <returns></returns>
@@ -158,7 +158,7 @@ namespace PeakDetector {
 
 
 
-     public static int NaivePeakFinding(double[] signal) {
+        public static int NaivePeakFinding(double[] signal) {
 
             int? peakIndex = null;
             double? peakValue = null;
@@ -177,35 +177,36 @@ namespace PeakDetector {
 
             return (int)peakIndex;
         }
+
         public static int NaiveValleyFinding(double[] signal) {
 
-            int? peakIndex = null;
-            double? peakValue = null;
+            int? valleyIndex = null;
+            double? valleyValue = null;
             int index = 0;
             foreach (var value in signal) {
-                if (peakValue == null || value < peakValue) {
-                    peakIndex = index;
-                    peakValue = value;
+                if (valleyValue == null || value < valleyValue) {
+                    valleyIndex = index;
+                    valleyValue = value;
                 }
                 index++;
             }
 
-            if (peakIndex == null) {
+            if (valleyIndex == null) {
                 return 0;
             }
 
-            return (int)peakIndex;
+            return (int)valleyIndex;
         }
 
-        public static List<int> MultiplePeakFinding(double[] signal, bool isAvgFilter = true) {
+        public static List<int> MultiplePeakFinding(double[] signal, bool isAvgFilter = false) {
             List<int> peakIndices = new List<int> { };
             double baseline;
 
-            if (isAvgFilter == true) {
-                baseline = AvgFilter(signal).Average();
+            if (isAvgFilter == false) {
+                baseline = signal.Average();
             }
             else {
-                baseline = signal.Average();
+                baseline = AvgFilter(signal).Average();
             }
 
             int? peakIndex = null;
@@ -231,39 +232,41 @@ namespace PeakDetector {
             }
             return peakIndices;
         }
-        public static List<int> MultipleValleyFinding(double[] signal, bool isAvgFilter = true) {
-            List<int> peakIndices = new List<int> { };
+        public static List<int> MultipleValleyFinding(double[] signal, bool isAvgFilter = false) {
+            List<int> valleyIndices = new List<int> { };
             double baseline;
 
-            if (isAvgFilter == true) {
-                baseline = AvgFilter(signal).Average();
-            }
-            else {
+            if (isAvgFilter == false) {
                 baseline = signal.Average();
             }
+            else {
+                baseline = AvgFilter(signal).Average();
+            }
 
-            int? peakIndex = null;
-            double? peakValue = null;
+            baseline = (signal.Min()*3 + baseline*7) / 10;
+
+            int? valleyIndex = null;
+            double? valleyValue = null;
             int index = 0;
 
             foreach (var value in signal) {
                 if (value < baseline) {
-                    if (peakValue == null || value < peakValue) {
-                        peakIndex = index;
-                        peakValue = value;
+                    if (valleyValue == null || value < valleyValue) {
+                        valleyIndex = index;
+                        valleyValue = value;
                     }
                 }
-                else if (value > baseline && peakIndex != null) {
-                    peakIndices.Add((int)peakIndex);
-                    peakIndex = null;
-                    peakValue = null;
+                else if (value > baseline && valleyIndex != null) {
+                    valleyIndices.Add((int)valleyIndex);
+                    valleyIndex = null;
+                    valleyValue = null;
                 }
                 index++;
             }
-            if (peakIndex != null) {
-                peakIndices.Add((int)peakIndex);
+            if (valleyIndex != null) {
+                valleyIndices.Add((int)valleyIndex);
             }
-            return peakIndices;
+            return valleyIndices;
         }
 
     }

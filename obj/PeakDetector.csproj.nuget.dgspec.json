@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\C#\\PeakDetector\\PeakDetector.csproj": {}
+    "C:\\Dev\\C#\\PeakDetector_algorithm\\PeakDetector.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\C#\\PeakDetector\\PeakDetector.csproj": {
+    "C:\\Dev\\C#\\PeakDetector_algorithm\\PeakDetector.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\C#\\PeakDetector\\PeakDetector.csproj",
+        "projectUniqueName": "C:\\Dev\\C#\\PeakDetector_algorithm\\PeakDetector.csproj",
         "projectName": "PeakDetector",
-        "projectPath": "C:\\Dev\\C#\\PeakDetector\\PeakDetector.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\C#\\PeakDetector\\obj\\",
+        "projectPath": "C:\\Dev\\C#\\PeakDetector_algorithm\\PeakDetector.csproj",
+        "packagesPath": "C:\\Users\\hwang\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\C#\\PeakDetector_algorithm\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hwang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -78,7 +78,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
